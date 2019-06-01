@@ -13,7 +13,7 @@ ingredients = {
     "rum": ("Rum", True),
     "peach": ("Creme de Peche", True),
     "cachaca": ("Cachaca", True),
-    "apricot": ("Arpicot Brandy"),
+    "apricot": ("Arpicot Brandy", True),
 
     "porno": ("Porno", True),
 
@@ -90,24 +90,6 @@ drink_list = [
             ("maracuja", 14*CL),
         ]
     }, {
-        "name": "The Beach",
-        "recipe": [
-            ("vodka", 4*CL),
-            ("peach", 3*CL),
-            ("lemon", 1*CL),
-            ("orange", 4*CL),
-            ("grenadine", 1.5*CLs),
-            ("maracuja", 14*CL),
-        ]
-    }, {
-        "name": "Peach Sling Light",
-        "recipe": [
-            ("vodka", 2*CL),
-            ("peach", 2*CL),
-            ("pineapple", 8*CL),
-            ("orange", 8*CL),
-        ]
-    }, {
         "name": "Peach Sling Light",
         "recipe": [
             ("vodka", 2*CL),
@@ -157,7 +139,7 @@ drink_list = [
             ("grenadine", 0.2 * CLs),
         ]
     }, {
-        "name": "Tropical Sunshine",
+        "name": "Wodka Maracuja",
         "recipe": [
             ("vodka", 4*CL),
             ("maracuja", 12*CL),
